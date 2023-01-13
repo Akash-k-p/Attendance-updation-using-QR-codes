@@ -1,0 +1,19 @@
+git config --h                                      #for help commands
+git help config                                    #for detailed explnations (only after init )
+
+git config --global init.default branch main 		# to initialise it 
+
+cd <project path here>                                              #Change Directory to the specified path
+
+git init                                                 #for creating the repo(gets reinitialised if already created which is fine)
+
+git status                                          #check status of the files
+
+git add <filename.extension>         #to add a file to track
+
+git rm --cached <filename.extension>      #to untrack it
+
+# create a text file with  .gitignore EXTENSION to ignore files in your repo
+#simply write the filename along with the extension in that file to ignore it
+
+
