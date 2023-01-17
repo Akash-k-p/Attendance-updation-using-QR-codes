@@ -68,16 +68,26 @@ def terminate():
 ####this is the main GUI code########
 from tkinter.font import Font
 root = tk.Tk()
-frame = tk.Frame(root,padx=10,pady=100) #for framing and padding
+frame = tk.Frame(root,padx=10,pady=10) #for framing and padding
 frame.pack()
-my_font = tk.font.Font(size=10) #creates a font object
-root.geometry("500x500")  #sets the window size
+my_font = tk.font.Font(size=15) #creates a font object
+root.geometry("650x630")  #sets the window size
 root.title("QR code Based Attendance System")
-root.config(bg='blue')
+root.config(bg='white')
+#create a image object
+from PIL import ImageTk,Image
+
+image =Image.open("nmamit_logo.png")
+width,height=image.size
+#image = image.resize((width // 4, height // 4))
+photo=ImageTk.PhotoImage(image)
+label=tk.Label(root,image=photo,width=width+100)
+label.pack()
+
 run_button = tk.Button(frame,text="Start Scanning QR codes", command=run_code,font=my_font,width=50,height=10,bg='green')
 run_button.pack()
 
-terminate_button = tk.Button(frame,text="Press Q to terminate", command=terminate,font=my_font,width=50,height=10,bg='red')
+terminate_button = tk.Button(frame,text="Press  to terminate", command=terminate,font=my_font,width=50,height=10,bg='red')
 terminate_button.pack()
 
 root.mainloop()    
