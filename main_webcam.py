@@ -4,7 +4,7 @@ import time
 import tkinter as tk
 import cv2
 from pyzbar.pyzbar import decode
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 import numpy as np
 
 #############this def runs the important function#########
@@ -64,6 +64,8 @@ def run_code():
 #####this function terminates it#######    
 def terminate():
     root.destroy()
+
+
 
 ####this is the main GUI code########
 from tkinter.font import Font
