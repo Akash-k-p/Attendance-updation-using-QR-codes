@@ -8,12 +8,16 @@ This project is a fork of the project [here](https://github.com/computervisionen
 
 **Whats this project about:**
 
-   -Watched the above video to  know about this project
-										 
-   -Things I have added :
-	   -Has a GUI with my college logo on it 
-				 	-Has a button to start scanning
-					-Has a button to stop scanning
+*Watched the above video to  know about this project
+ *Things I have added
+		*Has a GUI with my college logo on it 
+			*Has a button to start scanning
+			*Has a button to stop scanning
 					
-![picture alt](http://via.placeholder.com/200x150 "GUI Window")						
+![picture alt](window_GUI.png "GUI Window")						
+
+* Bullet list
+	* Nested bullet
+                  	* Sub-nested bullet etc
+              * Bullet list item 2
 
