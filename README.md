@@ -7,7 +7,7 @@ This project is a fork of the project [here](https://github.com/computervisionen
 [![Watch the video](https://img.youtube.com/vi/5eahBYvDJjA/0.jpg)](https://youtu.be/5eahBYvDJjA?t=900)
 
 **Whats this project about:**
-* Watched the above video to  know about this project
+* Watch the video above (timestamp added)
 * Things I have added
 	* Has a GUI with my college logo on it 
 		* Has a button to start scanning
