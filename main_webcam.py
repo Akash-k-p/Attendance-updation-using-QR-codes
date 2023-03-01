@@ -4,7 +4,7 @@ import time
 import tkinter as tk
 import cv2
 from pyzbar.pyzbar import decode
-#import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt
 import numpy as np
 
 #############this def runs the important function#########
@@ -14,7 +14,7 @@ def run_code():
         authorized_users = [l[:-1] for l in f.readlines() if len(l) > 2]
         f.close()
 
-    log_path = './Book1.csv'
+    log_path = './log.txt'
 
     cap = cv2.VideoCapture(0)
 
