@@ -2,4 +2,18 @@
 
 QR reader + attendance system with Python and OpenCV !
 
-[![Watch the video](https://img.youtube.com/vi/5eahBYvDJjA/0.jpg)](https://www.youtube.com/watch?v=5eahBYvDJjA)
+This project is a fork of the project [here](https://github.com/computervisioneng/qr-reader-attendance-system.git)
+
+[![Watch the video](https://img.youtube.com/vi/5eahBYvDJjA/0.jpg)](https://youtu.be/5eahBYvDJjA?t=900)
+
+**Whats this project about:**
+
+   -Watched the above video to  know about this project
+										 
+   -Things I have added :
+	   -Has a GUI with my college logo on it 
+				 	-Has a button to start scanning
+					-Has a button to stop scanning
+					
+![picture alt](http://via.placeholder.com/200x150 "GUI Window")						
+
